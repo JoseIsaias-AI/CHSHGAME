@@ -1,0 +1,2 @@
+# CHSHGAME
+Alice and Bob
