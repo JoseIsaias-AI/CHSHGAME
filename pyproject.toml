@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chshgame"
+version = "0.1.0"
+description = "Classical and quantum simulations of the CHSH game with Qiskit."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "qiskit[visualization]==1.2.2",
+    "qiskit-aer>=0.15,<0.16",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
