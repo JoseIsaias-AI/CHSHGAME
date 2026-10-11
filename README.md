@@ -1,5 +1,9 @@
 # CHSH Game
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Qiskit](https://img.shields.io/badge/Qiskit-1.2-6929C4?logo=qiskit&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-tested-0A9EDC?logo=pytest&logoColor=white)
+
 This repository contains a compact Python/Qiskit implementation of the CHSH
 game, comparing a deterministic classical strategy with the standard entangled
 quantum strategy.
@@ -88,3 +92,9 @@ jupyter notebook notebooks/chsh-game.ipynb
 
 The notebook mirrors the code in `src/chshgame/game.py` and includes circuit
 drawings for each input pair.
+
+## Author
+
+**José Isaías** · Computer Engineering at Inteli ·
+[LinkedIn](https://www.linkedin.com/in/joseisaias) ·
+[GitHub](https://github.com/JoseIsaias-AI)
